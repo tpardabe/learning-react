@@ -8,12 +8,15 @@ class About extends React.Component {
 		return (
 			<div class="outer">
 				<div class="middle">
-					<h2 class="inner">About</h2>
 					<div class="inner">
-						<ul class="list-inline">
-							<li><a href={linkedInLink} class="fa fa-linkedin" /> </li>
-							<li><a href={githubLink} class="fa fa-git" /></li>
-						</ul>
+						<div class="container">
+							<h2>About</h2>
+							<h4>Back end Software Engineer</h4>
+							<ul class="list-inline">
+								<li><a href={linkedInLink} class="fa fa-linkedin-square" id="link"/></li>
+								<li><a href={githubLink} class="fa fa-git-square" id="link"/></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

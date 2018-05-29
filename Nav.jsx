@@ -8,6 +8,7 @@ class Nav extends React.Component {
 			<div class="topnav">
 				<NavLink exact to="/">Main page</NavLink>
 				<NavLink to="/projects">Projects</NavLink>
+				<NavLink to="/experience">Work Experience</NavLink>
 			</div>
 		);
 	}
