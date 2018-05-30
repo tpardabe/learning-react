@@ -61,7 +61,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -147,7 +147,7 @@ body {
 
 /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 10px 30px;
     background-color: green;
     position: relative;
     border-radius: 6px;

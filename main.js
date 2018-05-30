@@ -7,6 +7,7 @@ import About from './About.jsx';
 import Projects from './Projects.jsx';
 import NotFound from './NotFound.jsx';
 import Experience from './Experience.jsx';
+import Skills from './Skills.jsx';
 import './css/styles.css';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
 	    		<Route exact path="/" component={About} />
 		    	<Route path="/projects" component={Projects}/>
 		    	<Route path="/experience" component={Experience}/>
+		    	<Route path="/skills" component={Skills}/>
 		    	<Route component={NotFound} />
 		 	</Switch>
 	 	</div>

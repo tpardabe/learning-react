@@ -9,12 +9,13 @@ class About extends React.Component {
 			<div class="outer">
 				<div class="middle">
 					<div class="inner">
-						<h2>About</h2>
-							<h4>Back end Software Engineer</h4>
-							<ul class="list-inline">
-								<li><a href={linkedInLink} class="fa fa-linkedin-square" id="link"/></li>
-								<li><a href={githubLink} class="fa fa-git-square" id="link"/></li>
-							</ul>
+						<h2>Talgat Pardabekov</h2>
+						<h4>Back end Software Engineer</h4>
+						<div>Purdue University Alumni</div>
+						<ul class="list-inline">
+							<li><a href={linkedInLink} class="fa fa-linkedin-square" id="link"/></li>
+							<li><a href={githubLink} class="fa fa-git-square" id="link"/></li>
+						</ul>
 					</div>
 				</div>
 			</div>
